@@ -1,4 +1,4 @@
-<h2>Today's article</h2>
+<app-nav></app-nav>
 <hr/>
 <div *ngFor="let article of articles">
   <a href="{{article.url}}" target="_blank">{{article.title}}</a>
@@ -13,6 +13,7 @@
   <button class="btn btn-primary" (click)="addArticle()">Add</button>
 
 </div>
+<app-footer></app-footer>
 
 
 

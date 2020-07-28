@@ -5,11 +5,15 @@ import {FormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LikesComponent } from './likes/likes.component';
+import { NavComponent } from './app/nav/nav.component';
+import { FooterComponent } from './app/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LikesComponent
+    LikesComponent,
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
